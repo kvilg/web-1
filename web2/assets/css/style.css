@@ -1,0 +1,499 @@
+
+body{
+    font-family: 'Oswald',sans-serif;
+
+    line-height: 1.6;
+    color: #333;
+
+    margin: 0 auto;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0 auto;
+}
+
+
+
+.conteiner{
+    max-width: 1100px;
+    width: 100%;
+
+    margin: 0 auto;
+
+    position: relative;
+}
+
+
+
+.header{
+    width:100% ;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+}
+
+.header__lisk{
+    margin-top: 30px;
+}
+
+.a_absol{
+    
+    position: absolute;
+    right: 0;
+}
+
+.a_relat{
+  
+    position: relative;
+    left: 0;
+}
+
+
+.intro{
+    width: 100%;
+    height: 68vh;
+
+    background: url(../img/Rectangle.jpg) center no-repeat;
+    -webkit-background-size:cover ;
+    background-size:cover ;
+
+    text-align: center;
+}
+
+
+.intro__text1{
+    display: inline-block;
+
+    color: #ffffff;
+
+    font-weight: 500;
+    font-size: 64px;
+
+    padding-top: 162px;
+
+}
+
+.intro__text2{
+    display: inline-block;
+
+    color: #ffffff;
+
+    font-weight: 400;
+    font-size:18px ;
+
+    padding-top: 35px;
+}
+
+.whait__block{
+    display: inline-block;
+    background-color: #F7F7F7;
+    z-index: 2;
+
+    margin-top: 50px;
+
+    
+    height: 300px;
+}
+.whait__block__pad__r{
+	padding-right:150px;
+}
+
+.whait__block__pad__l{
+	padding-left:150px;
+}
+.intro__text__block{
+    display: inline-block;
+
+    margin: 50px;
+}
+.intro__age{
+    color: #F7654A;
+
+    font-weight: 500;
+    font-size: 72px;
+}
+.intro__age__text{
+    color: #000000;
+
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.intro__age__text2{
+    color: #999999;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.intro__trening__pading{
+    background-color: #E5E5E5;
+    height: 32vh;
+}
+
+
+.progekts{
+    padding-bottom: 100px;
+
+    background-color: #E5E5E5;
+
+    font-size:36px ;
+    font-weight: 500;
+
+    text-align: center;
+}
+
+.foto__info{
+    text-align: center;
+}
+.foto_block{
+    padding-top: 60px;
+    display: inline-block;
+    margin: 5px;
+
+    text-align: left;
+
+    
+}
+
+.foto__hr{
+    margin-top: 45px;
+    margin-bottom: 15px;
+
+    display: inline-block;
+    width: 55px;
+    border-color: #F7654A;
+}
+
+.progekts__text{
+    font-size:24px ;
+    font-weight: 500 ;
+}
+
+.progekts__text2{
+    font-family: 'Open Sans' sans-serif;
+
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #999999;
+
+    padding-top: 20px;
+}
+
+
+
+.oreng__progekts{
+    padding-top:30px ;
+    padding-bottom:40px ;
+
+
+
+    background-color: #F7654A;
+    color: #ffffff;
+}
+.oreng__progekts__text{
+    position: relative;
+}
+.o__p__t1{
+    font-weight: 700;
+    font-size: 48px;
+}
+.o__p__t2{
+    font-weight: 700;
+    font-size: 24px;
+
+    padding-top: 20px;
+}
+
+.oreng__progekts__bottom{
+    position: absolute;
+    right: 0;
+    top: 73px;
+}
+
+.o__p__botton{
+    background-color: #ffffff;
+
+    color: #000000;
+
+    font-weight:500 ;
+    font-size:14px ;
+
+    padding-top:14px ;
+    padding-bottom: 14px;
+    padding-right:30px ;
+    padding-left: 30px;
+
+    border: #ffffff;
+}
+.text__pad{
+    display: inline-block;
+}
+
+.mail__blokc{
+    display: inline-block;
+
+}
+
+.o__p__botton:hover{
+    border: #000000;
+    color: #ffffff;
+
+    background-color: #000000;
+
+    font-weight:500 ;
+    font-size:14px ;
+
+    padding-top:14px ;
+    padding-bottom: 14px;
+    padding-right:30px ;
+    padding-left: 30px;
+
+    transition: .2s;
+}
+
+
+.task{
+    padding-top: 150px;
+
+    background-color: #E5E5E5;
+
+    padding-bottom: 150px;
+}
+.task__logo{
+    display: inline;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.task__block{
+    padding-top: 66px;
+    text-align: center;
+}
+.task__foto{
+    display: inline;
+}
+.task__block__i{
+    text-align: center;
+    background-color: #F7F7F7;
+    display: inline-block;
+
+    padding-top: 59px;
+    padding-bottom:59px ;
+    padding-right: 92px;
+    padding-left: 86px;
+
+
+    margin: 15px;
+}
+
+.task__block__text{
+    font-weight:500 ;
+    font-size:21px ;
+
+    padding-top: 30px;
+
+}
+
+
+.foto__bild__rep{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/bild__repiat.jpg);
+    
+    
+
+    background-repeat: round;
+}
+
+
+
+
+
+
+.spons{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    background-color: #404149;
+
+    color: #ffffff;
+}
+
+
+
+
+.spons__logo{
+    text-align: center;
+
+    font-weight:500 ;
+    font-size:36px;
+}
+
+.spons__foto_sek{
+    padding-top: 60px;
+}
+
+.spons__foto{
+    display: inline;
+
+    margin: 22px;
+}
+
+
+
+.work{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    background: #E5E5E5;
+}
+.work__text{
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    padding-bottom: 64px;
+}
+
+.work__kov{
+    padding-top: 15px;
+
+    color: #F7654A;
+
+    font-size: 96px;
+    font-weight: 700;
+    
+}
+
+.work__block{
+    text-align: center;
+}
+.work__block__i{
+    text-align: left;
+    
+    display: inline-block;
+    margin: 40px;
+}
+
+.work__text__i{
+    
+    
+    color: #999999;
+
+    font-family:'Open Sans' sans-serif;
+}
+
+.work__grey__blokc{
+    background-color: #F7F7F7;
+
+    display: inline-block;
+
+    padding-right:30px ;
+    padding-left: 30px;
+    padding-bottom: 38px;
+}
+
+.work__block__text1{
+    padding-top: 30px;
+
+    display: block;
+
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.work__block__text2{
+    display: inline-block;
+
+    font-size: 21px;
+    font-weight: 500;
+
+    color: #F7654A;
+}
+
+
+.kontats{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    text-align: center;
+
+    background-color: #E5E5E5;
+
+}
+
+.kontats__block{
+    padding-top: 50px;
+}
+
+.kontats__block__i{
+    vertical-align: top;
+    
+    display: inline-block;
+
+    margin: 50px;
+}
+.kontats__block__i__text1{
+    padding-top: 30px;
+    padding-bottom: 25px;
+
+    font-weight: 500;
+    font-size:24px ;
+
+    color: #999999;
+
+}
+
+.kontats__block__i__text2{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.kon_pad{
+    padding-top: 11px;
+}
+
+.kontats__block__mail{
+    text-decoration: none;
+    color: #F7654A;
+}
+
+
+
+.footer{
+    background-color: #404149;
+
+    padding-top: 30px ;
+    padding-bottom:30px ;
+}
+.footer__text1{
+    display: inline-block;
+
+    position: relative;
+    font-weight: 400;
+    font-size:16px ;
+    color: #ffffff;
+}
+.footer__text2{
+    display: inline-block;
+
+    position: absolute;
+    font-weight: 400;
+    font-size:16px ;
+    color: #ffffff;
+
+    right: 0;
+}
